@@ -1,0 +1,58 @@
+/* Header container alignment */
+.evento-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+    /* Header background */
+    background-color: rgba(0, 0, 0, 30%);
+
+    /* Moves the header contents to the center of the page by pushing left and right margin auto */
+    max-width: 1150px;
+    margin: 0 auto 0 auto; 
+
+}
+
+
+/* Logo styles and alignment */
+.evento-logo {
+    display: flex;
+    align-items: center;
+}
+
+.evento-logo h1 {
+    color: white;
+    font-weight: 100;
+}
+
+
+/* list alignment */
+.evento-list-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.evento-list-container li {
+    list-style: none;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Hyperlink styles */
+.evento-list-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.evento-list-container a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: white;
+}
+
+.evento-list-container a:active {
+    color: rgba(255, 255, 255, 30%);
+}
+
+
