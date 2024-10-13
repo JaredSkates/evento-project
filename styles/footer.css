@@ -1,0 +1,48 @@
+/* Footer container contents alignment */
+.evento-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 20px;
+
+    height: 20vh;
+}
+
+/* Contents styling */
+.evento-footer hr {
+    width: 70%;
+    opacity: 0.7;
+}
+
+.footer-contents p {
+    color: white;
+}
+
+.footer-contents {
+    margin-bottom: 10px;
+}
+
+/* Image btns Styling */
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-socials img {
+    width: 25px;
+    height: 25px;
+
+    border: none;
+    border-radius: 100%;
+
+    /* Adds margin to the left and right */
+    margin: 0 10px;
+}
+
+.footer-socials img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

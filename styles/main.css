@@ -1,0 +1,85 @@
+/* Main Container alignment */
+.evento-main-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    /* Sets the height for the container */
+    height: 70vh;
+}
+
+/* Evento Main Content styling */
+.evento-main-contents h2 {
+    font-weight: 300;
+    color: white;
+    font-size: 40px;
+
+    padding: 15px;
+}
+
+.evento-main-contents p {
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+}
+
+.evento-main-contents {
+    text-align: center;
+}
+
+#main-content-title {
+    font-weight: bolder;
+}
+
+
+/* Input styling */
+.evento-main-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+    gap: 15px;
+
+}
+
+.evento-main-input input {
+    border: none;
+    background-color: white;
+
+
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+
+    width: 20%;
+    height: 40px;
+
+    /* Removes yellow outline during focus */
+    outline: none; 
+
+    /* Transition from blur to focus */
+    opacity: 0.8;
+    transition: all 0.4s ease;
+
+}
+
+.evento-main-input input::placeholder {
+    opacity: 0.7;
+}
+
+.evento-main-input input:focus {
+    opacity: 1;
+}
+
+.evento-main-input button {
+    border: none;
+    background: black;
+
+    color: white;
+    font-weight: 200;
+    font-weight: bold;
+
+    padding: 10px;
+}
+
